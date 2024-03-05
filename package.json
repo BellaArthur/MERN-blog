@@ -1,6 +1,18 @@
 {
+  "name": "mernblog",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.7",
-    "vite-plugin-require": "^1.1.14"
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
   }
 }
