@@ -19,7 +19,7 @@ export default function Header () {
     ]
 
     return (
-        <header className='bg-gray-200 mx-auto shadow-md'>
+        <header className='bg-gray-200 mx-auto shadow-md sticky top-0'>
             <nav className='px-4 py-4 mx-auto max-w-7xl flex justify-between'>
                 <a href='/' className='text-black text-3xl font-bold  sm:tex-xl'>Mern<span className='text-orange-500'>Blog</span></a>
                 
